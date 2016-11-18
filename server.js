@@ -8,9 +8,9 @@ app.use(bodyParser());
 /* ------------------------------------------------------------------------------------------
 * Подключаем все коллекций
 */
-	var Comments = require("./app/models/comments.js").Comments;
-	var Posts = require("./app/models/posts.js").Posts;
-	var Users = require("./app/models/user.js").Users;
+app.get('/', function(request, response) {
+  response.send('Hello World!');
+});
 
 
 var port = process.env.PORT || 5000;
