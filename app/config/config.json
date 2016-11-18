@@ -1,7 +1,7 @@
 {
 	"port": 2000,
 	"mongoose": {
-		"uri" : "mongodb://localhost/communication",
+		"uri" : "mongodb://localhost/mofia",
 		"options": {
 			"server": {
 				"socketOptions": {
